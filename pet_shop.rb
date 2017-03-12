@@ -71,30 +71,24 @@ def customer_can_afford_pet(customer, afford_pet)
   end
 end
 
-# def sell_pet_to_customer(shop, pet, customer)
-#   def find_pet_by_name(shop, pet)
-#     for animal in shop[:pets]
-#       if animal == pet
-#         return animal
-#       end
-#     end
-#   end
-#   customer[:pets].push(pet)
-#   def customer_pet_count(customer)
-#     customer[:pets].length
-#   end
+def sell_pet_to_customer(shop, pet, customer)
+  
+total_cash(shop) += 
 
-  # shop[:admin][:pets_sold] = 1
-  # def pets_sold(shop)
-  #   return shop[:admin][:pets_sold]
-  # end
-
-  # shop[:admin][:total_cash] = 1900
-  # def total_cash(shop)
-  #   return shop[:admin][:total_cash]
-  # end
-
-# end
+  def find_pet_by_name(shop, pet_name)
+    for pet in shop[:pets]
+      return true if pet[:name] == pet_name 
+    end 
+  end
+  if true
+    def add_pet_to_customer(customer, pet_name)
+      customer[:pets].push(pet)
+      return customer[:pets].length
+    end
+  elsif false
+    return nil
+  end
+end
 
 
 
