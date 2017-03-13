@@ -72,30 +72,40 @@ def customer_can_afford_pet(customer, afford_pet)
 end
 
 def sell_pet_to_customer(shop, pet, customer)
-  
-total_cash(shop) += 
 
-  def find_pet_by_name(shop, pet_name)
-    for pet in shop[:pets]
-      return true if pet[:name] == pet_name 
-    end 
-  end
-  if true
-    def add_pet_to_customer(customer, pet_name)
-      customer[:pets].push(pet)
-      return customer[:pets].length
-    end
-  elsif false
-    return nil
-  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 end
-
-
-
-
-
-
-
-
-
-
